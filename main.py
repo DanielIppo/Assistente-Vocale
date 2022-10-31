@@ -5,17 +5,13 @@ import datetime
 import wikipedia
 from random import *
 
-global engine
 engine = pyttsx3.init()
 voices = "italian"
 engine.setProperty('voice', voices)
 
-global nameAssistant
 nameAssistant = "jarvis"
-global nameUser
 nameUser = "Daniel"
 
-global speak
 def speak(text):
     engine.say(text)
     engine.runAndWait()
