@@ -12,4 +12,4 @@ ATTENZIONE:
     
     - Pyttsx3 (pip install pyttsx3)
     
-    - Speech Recognition (pip install SpeecRecognition)
+    - Speech Recognition (pip install SpeechRecognition)
